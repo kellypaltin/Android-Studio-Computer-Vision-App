@@ -20,22 +20,22 @@ Among the main challenges are:
 
 To address these challenges, we propose the development of a mobile application and a basic web application to perform the process of merging two sources of images or videos. The mobile application will be responsible for the capture, preprocessing and transmission of the data, while the web application will be responsible for the final fusion and presentation of the result.
 
-![image](https://github.com/user-attachments/assets/5ebff9ab-c4e3-4f84-9052-b0b1d22d4c79)
+![image](https://github.com/user-attachments/assets/7a67e1de-5157-4ba0-aacd-a774eab78a17)
 
 # Mobile Application & Web Server
-![image](https://github.com/user-attachments/assets/cc55928b-2e0c-43e3-baca-54878cedbc80)
+![image](https://github.com/user-attachments/assets/f2e9cd64-6229-46ab-b9fb-f2e17bffd17c)
 
-![image](https://github.com/user-attachments/assets/c499bb23-40d5-492b-9892-c0d7ca922b4b)
+![image](https://github.com/user-attachments/assets/e210123c-274f-493a-b43e-f4753a85e466)
 
-![image](https://github.com/user-attachments/assets/7ed27a4e-f9be-4a0b-b2c7-44a213544374)
+![image](https://github.com/user-attachments/assets/7623d7fe-e068-4c6e-8527-ace64765d7eb)
 
-![image](https://github.com/user-attachments/assets/11250d87-9135-4d8c-8a51-c5d0ef4e9afa)
+![image](https://github.com/user-attachments/assets/8e11b06e-c944-487a-84c2-0932adfa928c)
 
-![image](https://github.com/user-attachments/assets/dbe3dd4a-25cd-4b37-ad13-847ba63fb842)
+![image](https://github.com/user-attachments/assets/9015f4ae-5ff0-453a-8fa5-ec60877f8c57)
 
-![image](https://github.com/user-attachments/assets/7b011738-046f-4a6e-8dbc-c5d86790efb4)
+![image](https://github.com/user-attachments/assets/dfb03c0b-66c9-4c8d-810d-cbd30aafe6ce)
 
-![image](https://github.com/user-attachments/assets/d523d75e-8174-4fca-9d14-4200ccf59810)
+![image](https://github.com/user-attachments/assets/0a1d2851-6e25-45d2-a5ff-9281af76df43)
 
 # Problem Description - Part 2
 Based on the application developed in Part I, we incorporated two new functionalities listed below:
@@ -43,14 +43,14 @@ Based on the application developed in Part I, we incorporated two new functional
 ▪ Object classification using Histograms of Oriented Gradients (HOG): An object classifier should be trained using the HOG descriptor and a Multilayer Perceptron Neural Network or similar. To do this, you must select a corpus of images on which the classification will be performed, extract the HOG descriptor and then train the neural network, where the HOG is used to classify handwritten digits (MNIST corpus). Once the neural network is trained, it must implement the classifier in the web server, so that when a new image is loaded, the prediction is performed.
 
 To face the proposed challenges, we started based on this explanatory diagram which outlines the main process that will be found in our Application:
-![image](https://github.com/user-attachments/assets/6bb5e8ec-79d2-472b-8728-4add0797a55f)
+![image](https://github.com/user-attachments/assets/63e27152-730c-4e36-9045-a96dbd3596f8)
 
 # Mobile Application & Web Server
-![image](https://github.com/user-attachments/assets/089d5775-ac0b-41cb-8aaa-47b015e8de05)
+![image](https://github.com/user-attachments/assets/d782ee12-898f-451f-a028-8b0d0fdf0b05)
 
-![image](https://github.com/user-attachments/assets/b69bc52c-8e1b-4747-837e-5f97b5d048be)
+![image](https://github.com/user-attachments/assets/436f9905-9885-4ce0-8805-28e2a114b5ef)
 
-![image](https://github.com/user-attachments/assets/6f6fdf43-39e3-49f9-ad25-46d20379f575)
+![image](https://github.com/user-attachments/assets/30342943-1abf-4665-8d11-68dcf16f224e)
 
-![image](https://github.com/user-attachments/assets/3092bfce-568b-493d-ae3a-342e96289cbb)
+![image](https://github.com/user-attachments/assets/9d64c586-880e-43bb-a116-491bf77b438a)
 
