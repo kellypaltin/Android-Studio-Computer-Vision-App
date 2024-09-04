@@ -1,0 +1,29 @@
+# Makefile para compilar main2.cpp con TensorFlow Lite y OpenCV
+
+# Variables de compilación
+CXX = g++
+CXXFLAGS = -std=c++11
+LDFLAGS = -L /usr/lib -lopencv_core -lopencv_imgcodecs -lopencv_highgui -lopencv_imgproc -L /home/lubuntu/Documentos/proyectopart2/tensorflow/tensorflow/lite/tools/make/gen/linux_x86_64/lib -ltensorflow-lite
+
+# Directorios de inclusión
+INCLUDES = -I /usr/include/opencv4 \
+           -I /home/lubuntu/Documentos/proyectopart2/tensorflow/tensorflow/lite/tools/make/downloads/flatbuffers/include \
+           -I /home/lubuntu/Documentos/proyectopart2/tensorflow/tensorflow/lite/tools/make/downloads/absl \
+           -I /home/lubuntu/Documentos/proyectopart2/tensorflow/tensorflow/lite/tools/make/downloads/farmhash/src \
+           -I /home/lubuntu/Documentos/proyectopart2/tensorflow/tensorflow/lite/tools/make/downloads/gemmlowp \
+           -I /home/lubuntu/Documentos/proyectopart2/tensorflow/tensorflow/lite/tools/make/downloads/neon_2_sse \
+           -I /home/lubuntu/Documentos/proyectopart2/tensorflow/tensorflow/lite/tools/make/downloads/eigen
+
+# Nombre del archivo ejecutable
+TARGET = main2
+
+# Regla por defecto
+all: $(TARGET)
+
+# Regla para compilar el archivo fuente
+$(TARGET): main2.cpp
+	$(CXX) $(CXXFLAGS) main2.cpp -o $(TARGET) $(INCLUDES) $(LDFLAGS)
+
+# Regla para limpiar archivos generados
+clean:
+	rm -f $(TARGET)
