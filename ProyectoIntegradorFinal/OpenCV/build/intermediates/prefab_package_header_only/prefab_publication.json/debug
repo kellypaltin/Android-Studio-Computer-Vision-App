@@ -1,0 +1,10 @@
+{
+  "installationFolder": "/home/apulla/Escritorio/Project/OpenCV/build/intermediates/prefab_package/debug/prefab",
+  "gradlePath": ":OpenCV",
+  "packageInfo": {
+    "packageName": "OpenCV",
+    "packageSchemaVersion": 2,
+    "packageDependencies": [],
+    "modules": []
+  }
+}
